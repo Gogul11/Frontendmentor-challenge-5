@@ -1,0 +1,201 @@
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+
+#result{
+    height: 325px;
+    width: 350px;
+    margin-left: 40px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 5px 5px 19px -4px rgba(0,0,0,0.75);
+    background: linear-gradient(180deg, hsl(252, 100%, 67%)25%, hsl(241, 81%, 54%)75%);
+
+}
+
+#sum{
+   
+    margin-top: 0px;
+    margin-left: 40px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 25px 25px 25px 25px;
+    height: 375px;
+    width: 350px;
+    box-shadow: 5px 5px 19px -4px rgba(0,0,0,0.75);
+}
+
+#reaction, #memory, #verbal, #visual{
+
+    margin: 15px;
+    height: 45px;
+    width: 90%;
+    border-radius: 10px;
+
+}
+
+#reaction{
+
+   background-color:hsla(0, 100%, 67%, 0.2);
+
+}
+
+#memory{
+
+    background-color:  hsla(39, 100%, 56%, 0.2); 
+}
+
+#verbal{
+    
+    background-color: hsla(166, 100%, 37%, 0.2);  
+}
+
+#visual{
+
+    background-color: hsla(234, 85%, 45%,0.2);
+}
+
+button{
+
+    border-radius: 35px;
+    height: 45px;
+    width: 85%;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    margin-left: 25px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    background: linear-gradient(180deg, hsl(252, 100%, 67%)5%, hsl(241, 81%, 54%)90%);
+}
+
+
+
+#circle{
+
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1)-5%, hsla(241, 72%, 46%, 0)100%);
+   
+    border-radius: 50%;
+    height: 105px;
+    width: 105px;
+    position: relative;
+    top: 25px;
+    left: 120px;
+}
+
+svg{
+
+    position: relative;
+    top: 12px;
+    left: 10px;
+}
+
+h3{
+    margin-top: 0px;
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+
+#a{
+
+    margin: 55px 45px 0px 45px;
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 100%);
+    opacity: 0.6;
+    text-align: center;
+    position: relative;
+    top: 15px;
+
+}
+
+h2{
+
+    margin-top: 0px;
+    color: hsl(0, 0%, 100%);
+    opacity: 0.8;
+    position: relative;
+    top: 50px;
+    text-align: center;
+
+}
+
+#sum p{
+
+    position: relative;
+    bottom: 33px;
+    left: 40px;
+}
+
+
+#reaction p{
+    color: hsl(0, 100%, 67%);
+}
+
+#memory p{
+    color: hsl(39, 100%, 56%);
+}
+
+#verbal p{
+    color: hsl(166, 100%, 37%);
+}
+
+#visual p{
+    color:  hsl(234, 85%, 45%);
+}
+
+#circle h1{
+
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+
+#circle p{
+
+    color: red;
+    position: relative;
+    left: 35px;
+    color: hsl(0, 0%, 100%);
+    opacity: 0.5;
+    font-size: 0.8rem;   
+}
+
+#tot{
+
+    margin: 0px;
+    position: relative;
+    left: 82%;
+    bottom: 95px;
+    opacity: 0.3;
+}
+
+#mark{
+    margin: 0px;
+    position: relative;
+    left: 73%;
+    bottom: 75px;
+}
+
+@media (min-width : 500px) and (min-width : 700px)
+{
+    #main{
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    #result, #sum{
+        margin: 0;
+        height: 400px;
+        width: 350px;
+    }
+    #circle{
+
+        margin: 0;
+    }
+   
+
+}
